@@ -3,12 +3,16 @@
 
 This repository is created as test task
 
-### Install
+### Start server 
 ```
+$ cd server
 $ npm install
+$ npm start
 ```
 
-### Start 
+### Start client
 ```
+$ cd client
+$ npm install
 $ npm start 
 ```
