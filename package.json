@@ -1,0 +1,16 @@
+{
+  "name": "test_app_pre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm run start --prefix client",
+    "dev": "nodemon server/nest start --watch",
+    "start": "concurrently \"node server/dist/main.js\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
