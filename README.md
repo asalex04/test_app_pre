@@ -1,7 +1,7 @@
 # test_app_pre
 
 
-This repository is created as an educational project
+This repository is created as test task
 
 ### Install
 ```
