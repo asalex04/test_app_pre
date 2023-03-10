@@ -1,0 +1,6 @@
+# compiled output
+server/dist
+server/node_modules
+client/node_modules
+
+/.idea
